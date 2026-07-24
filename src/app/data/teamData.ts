@@ -10,7 +10,7 @@ export interface TeamMember {
 export const teamContent: TeamMember[] = [
     {
         slug: 'Anuradha',
-        img: '/assets/img/teamimg/anuradha.JPG',
+        img: '/assets/img/teamimg/anuradha.jpg',
         name: 'Anuradha',
         content: 'SEO',
         linkedin: 'https://www.linkedin.com/in/the-crystal-engage-undefined-26b9993a9/',
