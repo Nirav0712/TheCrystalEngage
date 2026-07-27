@@ -11,16 +11,16 @@ const About1 = () => {
           <div className="col-lg-6">
             <div className="cs_about_content">
               <div className="cs_section_heading cs_style_1 cs_mb_28">
-                <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20">
+                {/* <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20">
                   About Us<span className="cs_shape_right"></span>
-                </p>
+                </p> */}
                 <h2 className="cs_fs_48 cs_mb_21 wow fadeInDown">we’re strategic digital marketing agency</h2>
                 <p className="cs_section_heading_text mb-0">We are a results-driven digital marketing agency committed to helping brands grow with powerful online strategies. Our mission is to bring innovative marketing solutions that boost visibility, attract the right audience, and convert visitors into loyal customers. With expertise across SEO, social media marketing, branding, paid ads, and data analytics, we design customized campaigns that deliver measurable success.
 
                   {/* <br/><br/>From small businesses to large enterprises, we support every stage of the digital journey with advanced tools, creative thinking, and performance-focused execution. Our team believes in transparency, smart planning, and long-term growth—making us a trusted partner for businesses that want to scale effectively in today’s competitive digital world. */}
                 </p>
               </div>
-              <ul className="cs_list cs_style_1 cs_medium cs_heading_color cs_mp_0">
+              {/* <ul className="cs_list cs_style_1 cs_medium cs_heading_color cs_mp_0">
                 <li>
                   <span className="cs_list_icon cs_center"><i className="bi bi-check-lg"></i></span>
                   <span className="cs_list_text">Various analysis options.</span>
@@ -33,7 +33,7 @@ const About1 = () => {
                   <span className="cs_list_icon cs_center"><i className="bi bi-check-lg"></i></span>
                   <span className="cs_list_text">Advance Data analysis operation.</span>
                 </li>
-              </ul>
+              </ul> */}
               <div className="cs_about_btn_group">
                 <Link href="/about" aria-label="Click to visit about us page" className="cs_btn cs_style_1 cs_fs_14 cs_bold text-uppercase wow fadeInLeft"><span>About Us</span></Link>
                 <div className="cs_client_info_wrapper wow fadeInRight">

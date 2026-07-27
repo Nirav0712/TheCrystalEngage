@@ -18,9 +18,9 @@ const Contact1 = () => {
           <div className="col-lg-6 order-lg-1 position-relative z-2">
             <div className="cs_contact_info_wrapper">
             <div className="cs_section_heading cs_style_1">
-              <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20 wow fadeInDown">Get In Touch Now<span className="cs_shape_right"></span>
-              </p>
-              <h2 className="cs_fs_48 cs_mb_20 wow fadeInUp">Feel Free To Contact Us</h2>
+              {/* <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20 wow fadeInDown">Get In Touch Now<span className="cs_shape_right"></span>
+              </p> */}
+              <h2 className="cs_fs_48 cs_mb_20 wow fadeInUp">Contact Us</h2>
               <p className="cs_section_heading_text mb-0 wow fadeInUp" data-wow-delay="200ms">Our comprehensive suite of digital marketing services </p>
             </div>
             <div className="cs_height_32 cs_height_lg_30"></div>

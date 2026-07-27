@@ -16,8 +16,8 @@ const  About2 = () => {
             <div className="col-lg-7">
               <div className="cs_about_content">
                 <div className="cs_section_heading cs_style_1 cs_mb_28">
-                  <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20 wow fadeInDown">What We Do<span className="cs_shape_right"></span>
-                  </p>
+                  {/* <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_mb_20 wow fadeInDown">What We Do<span className="cs_shape_right"></span>
+                  </p> */}
                   <h2 className="cs_fs_48 cs_mb_21 wow fadeInUp">Digital Growth Driven by Strategy & Results</h2>
                   <p className="cs_section_heading_text mb-0 wow fadeInUp" data-wow-delay="200ms">We fuel brand growth with strategic digital marketing that improves visibility, attracts the right audience, and drives conversions.</p>
                 </div>

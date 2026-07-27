@@ -9,9 +9,9 @@ const Team1 = () => {
       <div className="cs_height_120 cs_height_lg_80"></div>
       <div className="container">
         <div className="cs_section_heading cs_style_1 text-center">
-          <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_center cs_mb_20 wow fadeInDown">
+          {/* <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_center cs_mb_20 wow fadeInDown">
             <span className="cs_shape_left"></span>Our Team<span className="cs_shape_right"></span>
-          </p>
+          </p> */}
           <h2 className="cs_fs_48 cs_mb_21 wow fadeInUp">Our Professional Experts</h2>
         </div>
         <div className="cs_height_60 cs_height_lg_50"></div>

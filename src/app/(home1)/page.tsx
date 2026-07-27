@@ -38,8 +38,8 @@ const page = () => {
             <Project1></Project1>
             <Marquee></Marquee>
             <HowWeDo></HowWeDo>
-            <Process1></Process1>
-            <Video1></Video1>
+            {/* <Process1></Process1> */}
+            {/* <Video1></Video1> */}
             <Brand1></Brand1>
             <Testimonial1></Testimonial1>
             {/* <Teamhead></Teamhead> */}

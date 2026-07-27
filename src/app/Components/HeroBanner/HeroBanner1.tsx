@@ -15,15 +15,15 @@ const HeroBanner1 = () => {
   const titles = [
   {
     title: "Digital Marketing",
-    highlight: "Solutions.",
+    // highlight: "Solutions.",
   },
   {
     title: "Web Development",
-    highlight: "Services.",
+    // highlight: "Services.",
   },
   {
     title: "Creative Branding",
-    highlight: "Strategy.",
+    // highlight: "Strategy.",
   },
 ];
 
@@ -77,7 +77,7 @@ useEffect(() => {
             {/* <div className="cs_hero_shape_1 position-absolute">
               <Image src="/assets/img/star_shape.svg" alt="img" width={35} height={39} />
             </div> */}
-            <p className="cs_hero_subtitle cs_accent_color cs_semibold">Best Of Your Growth, Our Mission</p>
+            <p className="cs_hero_subtitle cs_accent_color cs_semibold">Your Growth, Our Strategy </p>
             <h1
   className="cs_hero_title cs_extra_bold"
   style={{
@@ -105,7 +105,8 @@ useEffect(() => {
   </AnimatePresence>
 </h1>
             <div className="cs_hero_text_wrapper">
-              <p className="cs_hero_text cs_medium wow fadeInRight">Grow your business with the best digital marketing solution designed to increase online visibility, attract quality customers, and boost sales. Our expert team provides result-driven services including SEO, social media marketing, branding, content creation, and paid advertising. We use advanced strategies and real-time analytics to deliver measurable growth and long-term success. Whether you&apos;re a startup or an established brand, we help you achieve your goals with powerful, customized digital marketing solutions that truly work.
+              <p className="cs_hero_text cs_medium wow fadeInRight"> Grow your business with digital marketing strategies designed to increase qualified leads, improve online visibility, and maximize return on investment.
+From search engine optimization and paid advertising to website development, branding, and social media marketing, our solutions are built around your business goals—not generic marketing campaigns. 
               </p>
               <div className="cs_hero_feature_wrapper">
                 <Link href="/about" className="cs_totating_logo cs_heading_bg cs_radius_50 position-relative wow zoomIn">

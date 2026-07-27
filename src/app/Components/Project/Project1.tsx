@@ -18,11 +18,11 @@ const Project1 = () => {
         <div className="cs_height_120 cs_height_lg_80"></div>
         <div className="container">
           <div className="cs_section_heading cs_style_1 text-center">
-            <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_center cs_mb_20 wow fadeInDown">
+            {/* <p className="cs_section_subtitle cs_fs-18 cs_semibold cs_accent_color cs_center cs_mb_20 wow fadeInDown">
               <span className="cs_shape_left"></span>Latest Work<span className="cs_shape_right"></span>
-            </p>
+            </p> */}
             <h2 className="cs_fs_48 cs_mb_21 wow fadeInUp">Explore Our Project</h2>
-            <p className="cs_section_heading_text mb-0 wow fadeInUp" data-wow-delay="200ms">Our comprehensive suite of digital marketing services is designed to <br/> elevate your brands visibility.</p>
+            {/* <p className="cs_section_heading_text mb-0 wow fadeInUp" data-wow-delay="200ms">Our comprehensive suite of digital marketing services is designed to <br/> elevate your brands visibility.</p> */}
           </div>
         </div>
         <div className="cs_height_60 cs_height_lg_50"></div>
