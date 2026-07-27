@@ -12,19 +12,10 @@ const HeroBanner1 = () => {
     loadBackgroudImages();
   }, []);
 
-  const titles = [
-  {
-    title: "Digital Marketing",
-    // highlight: "Solutions.",
-  },
-  {
-    title: "Web Development",
-    // highlight: "Services.",
-  },
-  {
-    title: "Creative Branding",
-    // highlight: "Strategy.",
-  },
+const titles = [
+  { title: "Digital Marketing" },
+  { title: "Web Development" },
+  { title: "Creative Branding" },
 ];
 
 const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,21 +78,15 @@ useEffect(() => {
   }}
 >
   <AnimatePresence mode="wait">
-    <motion.div
-      key={currentIndex}
-      initial={{ y: 80, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      exit={{ y: -80, opacity: 0 }}
-      transition={{ duration: 0.6 }}
-    >
-      {titles[currentIndex].title}{" "}
-      <span
-        className="cs_accent_color cs_semibold"
-        style={{ color: "#ff1505", height: "100px" }}
-      >
-        {titles[currentIndex].highlight}
-      </span>
-    </motion.div>
+   <motion.div
+  key={currentIndex}
+  initial={{ y: 80, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  exit={{ y: -80, opacity: 0 }}
+  transition={{ duration: 0.6 }}
+>
+  {titles[currentIndex].title}
+</motion.div>
   </AnimatePresence>
 </h1>
             <div className="cs_hero_text_wrapper">
